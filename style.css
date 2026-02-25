@@ -239,8 +239,10 @@ h1 em {
 .grid {
   margin-top: 1.25rem;
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
+  grid-template-columns: repeat(2, minmax(260px, 1fr));
   gap: 0.9rem;
+  max-width: 760px;
+  margin-inline: auto;
 }
 
 .card {
